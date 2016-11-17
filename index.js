@@ -67,7 +67,7 @@ app.use('/', function(request, response)
     
     //answer a JSON file
 	var otherArray = ["item1", "item2"];
-	var otherObject = { item1: "item1val", item2: "item2val" };
+	var otherObject = { item1: "primo valore", item2: "secondo valore" };
    
 	//creo oggetto JASON che contiene oggetto, array e stringa
 	var json = JSON.stringify({ 
